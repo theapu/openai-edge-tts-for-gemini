@@ -1,0 +1,12 @@
+services:
+  tts-server:
+    #image: theapu/openai-edge-tts-for-gemini-docker
+    container_name: openai-edge-tts-for-gemini
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - GEMINI_API_KEY=<Google AI studio API key>
+      - API_KEY=<API Key for this rest API>
+      - MAX_RETRIES=5
+      - RETRY_DELAY_MS=2

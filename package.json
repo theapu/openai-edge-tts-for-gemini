@@ -1,0 +1,12 @@
+{
+  "name": "gemini-tts-server",
+  "version": "1.0.0",
+  "description": "A server to provide a TTS API using Gemini.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
